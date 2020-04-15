@@ -1,0 +1,41 @@
+
+.main_body{
+  width: 1024px;
+  display: grid;
+  grid-template-columns: 720px 280px;
+  margin:auto;
+  padding: 20px;
+}
+.main_content{
+  width: 700px;
+}
+h2 {
+  margin-top: 1.6rem;
+  color: blue;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 1rem;
+}
+p {
+  color: hsl(0, 0%, 30%);
+}
+.side_content{
+  padding-left: 40px;
+}
+img{
+  width: 240px;
+  border-radius: 50%;
+}
+
+.side_content h4{
+  color: blue;
+  margin-top: 3rem;
+}
+.main_body a {
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+  color: blue;
+  line-height: 1.4rem;
+  }
